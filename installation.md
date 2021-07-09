@@ -25,7 +25,11 @@ python3.9 --version
 
 First you need to install PIP using this command
 
-python3.9 -m ensurepip --upgrade
+Download the script, from https://bootstrap.pypa.io/get-pip.py
+
+Open a terminal/command prompt, cd to the folder containing the get-pip.py file and run:
+
+python3.9 get-pip.py
 
 after you can install Django from:
 
