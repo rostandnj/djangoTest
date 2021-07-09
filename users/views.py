@@ -15,7 +15,7 @@ def index(request):
 
 
 def createUser(request):
-    awaitingKeys = ['first_name', 'last_name', 'address', 'phone', 'username']
+    awaitingKeys = ['first_name', 'last_name', 'address', 'phone', 'username','csrfmiddlewaretoken']
     testKeys = True
 
     for k, v in request.POST.items():
